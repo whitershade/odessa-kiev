@@ -1,0 +1,29 @@
+{
+    "sass.enabled": false,
+    "sass.compiler": "libsass",
+    "path": {
+        "scss/main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "includePaths": [
+                    "../bower_components/bourbon/app/assets/stylesheets/"
+                ],
+                "outputDir": "../app/css",
+                "imagePath": null,
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": true,
+            "custom.work.toggleToolbar": true,
+            "dnbard.documents-toolbar.icons": true,
+            "dnbard.documents-toolbar.smallIcons": false,
+            "dnbard.documents-toolbar.tooltip": false,
+            "dnbard.documents-toolbar.close_left": false,
+            "dnbard.documents-toolbar.workingFiles": true,
+            "dnbard.documents-toolbar.brackets_font": true,
+            "dnbard.documents-toolbar.grayscaleIcons": false,
+            "dnbard.documents-toolbar.showCloseButton": true,
+            "linting.enabled": true
+        }
+    }
+}

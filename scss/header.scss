@@ -1,0 +1,29 @@
+@import "bourbon";
+@import "fonts";
+@import "vars";
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  //outline: 1px solid red;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+  box-shadow: 0 0 0 3px $red-color;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}

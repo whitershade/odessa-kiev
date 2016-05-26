@@ -1,0 +1,233 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+  .top-header-line {
+    .teachers {
+      svg {
+        margin-left: 0;
+      }
+    }
+  }
+  .main-form {
+    margin-top: 60px;
+  }
+  .find-us {
+    .find-us-wrapper {
+      .tab-item {
+        p {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+  .phone-tabs-wrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .main-header {
+    .main-header-logo {
+      text-align: center;
+    }
+    h2 {
+      font-size: em(40px);
+      text-align: center;
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: em(35px);
+      text-align: center;
+    }
+  }
+  .find-us {
+    h2 {
+      margin-bottom: 0;
+    }
+    .find-us-wrapper {
+      .tabs {
+        margin-left: 0;
+      }
+      .tab-item {
+        margin-top: 15px;
+      }
+    }
+    .map{
+      min-height: 300px;
+    }
+  }
+  .reviews {
+    .owl-carousel {
+      padding-bottom: 55px;
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .main-header {
+    h2 {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+  .phone-tabs-wrapper {
+    .tab-content {
+      font-size: em(14px);
+    }
+  }
+  .main-header {
+    h2 {
+      font-size: em(30px);
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: em(24px);
+    }
+    .offers-tabs-wrapper {
+      ul {
+        padding-left: 20px;
+      }
+    }
+  }
+  .learning {
+    h2 {
+      font-size: em(30px);
+      margin-bottom: 0;
+    }
+    .professionals-item {
+      text-align: center;
+      margin-top: 20px;
+      svg {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: -40px;
+        width: 75px;
+        height: 75px;
+      }
+      .professionals-item-text {
+        display: block;
+        padding-left: 0px;
+        span {
+          font-size: em(25px);
+          margin-left: 0;
+        }
+        p {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .main-form{
+    button{
+      font-size: em(15px);
+    }
+  }
+  .reviews {
+    .owl-carousel {
+      .owl-nav {
+        display: none;
+      }
+    }
+  }
+  .questions{
+    p{
+      margin-bottom: 20px;
+    }
+    .questions-tabs-wrapper{
+      a{
+        font-size: em(30px);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 342px) {
+  .main-header {
+    .offers-tabs-wrapper {
+      .tab {
+        padding: 0 10px;
+        &:nth-of-type(2) {
+          padding-left: 14px;
+        }
+      }
+      ul {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
